@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Occupations</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="static/css/style.css"> -->
+</head>
+
+<body class = "bg-white overflow-auto">
+    <div class = "container" id = "chart_box">
+
+  <div id="plot"></div>
+
+  <select id="selDataset">
+    <option value="mainoccupations">Overview</option>
+    <option value="management">Management Occupations</option>
+    <option value="business">Business and Financial Operations Occupations</option>
+    <option value="computer">Computer and Mathematical Occupations</option>
+    <option value="engineering">Architecture and Engineering Occupations</option>
+    <option value="science">Life, Physical, and Social Science Occupations</option>
+    <option value="social">Community and Social Service Occupations</option>
+    <option value="legal">Legal Occupations</option>
+    <option value="education">Educational Instruction and Library Occupations</option>
+    <option value="arts">Arts, Design, Entertainment, Sports, and Media Occupations</option>
+    <option value="healthcare">Healthcare Practitioners and Technical Occupations</option>
+    <option value="healthcaresup">Healthcare Support Occupations</option>
+    <option value="protective">Protective Service Occupations</option>
+    <option value="food">Food Preparation and Serving Related Occupations</option>
+    <option value="building">Building and Grounds Cleaning and Maintenance Occupations</option>
+    <option value="personalcare">Personal Care and Service Occupations</option>
+    <option value="sales">Sales and Related Occupations</option>
+    <option value="office">Office and Administrative Occupations</option>
+    <option value="farming">Farming, Fishing, and Forestry Occupations</option>
+    <option value="construction">Construction and Extraction Occupations</option>
+    <option value="maintenance">Installation, Maintenance, and Repair Occupations</option>
+    <option value="production">Production Occupations</option>
+    <option value="transportation">Transportation and Material Moving Occupations</option>
+  </select>
+  
+</div>
+  
+
+
+
+
+    <script src = "../static/resources/occupations.js"></script>
+    <script src="../static/js/as_charts.js"></script>
+</body>
+
+</html>
